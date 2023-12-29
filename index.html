@@ -4,47 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/css/bootstrap.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>DitiGym</title>
 </head>
 <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">DitiGym</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DayPlan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </nav>   
    <header>
         <div class="aa-main">
             <div class="container">
                 <h1 class="aa-heading">Full Workout</h1>
                 <div class="aa-box-container">
                     <div class="aa-box">
-                        <img src="images/logo.png" alt="">
+                        <img src="/rsz_1chest.jpg" alt="">
                         <h2>Chest-Day</h2>
                         <p>Here you can find all the necssesary Chest-Day info</p>
                         <a href="" class="aa-btn">Read More</a>
                     </div>
                     <div class="aa-box">
-                        <img src="images/logo.png" alt="">
+                        <img src="/back.jpg" alt="">
                         <h2>Back-Day</h2>
                         <p>Here you can find all the necssesary Back-Day info</p>
                         <a href="" class="aa-btn">Read More</a>
                     </div>
                     <div class="aa-box">
-                        <img src="images/logo.png" alt="">
+                        <img src="/rsz_1rsz_shoulders.jpg" alt="">
                         <h2>Shoulders-Day</h2>
                         <p>Here you can find all the necssesary Shoulders-Day info</p>
                         <a href="" class="aa-btn">Read More</a>
                     </div>
                     <div class="aa-box">
-                        <img src="images/logo.png" alt="">
+                        <img src="/rsz_1rsz_arms.jpg" alt="">
                         <h2>Arm-Day</h2>
                         <p>Here you can find all the necssesary Arm-Day info</p>
                         <a href="" class="aa-btn">Read More</a>
                     </div>
                     <div class="aa-box">
-                        <img src="images/logo.png" alt="">
+                        <img src="/rsz_1rsz_legs.jpg" alt="">
                         <h2>Leg-Day</h2>
                         <p>Here you can find all the necssesary Leg-Day info</p>
                         <a href="" class="aa-btn">Read More</a>
                     </div>
                     <div class="aa-box">
-                        <img src="images/logo.png" alt="">
+                        <img src="/cardio.jpg" alt="">
                         <h2>Cardio-Day</h2>
                         <p>Here you can find all the necssesary cardio info</p>
                         <a href="" class="aa-btn">Read More</a>
@@ -53,5 +81,57 @@
             </div>
         </div> 
    </header>
+
+   <footer>
+        <div class="aa-main-content">
+            <div class="aa-left box">
+                <h2>About us</h2>
+                <div class="aa-content">
+                   <p>"Welcome to our dynamic gym page! Explore cutting-edge workouts, personalized training, and a vibrant fitness community. Join us in sculpting a healthier, stronger you. Let's embark on this fitness journey together</p>
+                    <div class="aa-social">
+                        <a href="https://facebook.com/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#" target="_blank"><span class="fab fa-twitter"></span></a>
+                        <a href="https://instagram.com/arditavddiu"><span class="fab fa-instagram"></span></a>
+                        <a href="https://www.youtube.com/watch?v=f4xLrfeA7mU" target="_blank"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="aa-center aa-box">
+                <h2>Address</h2>
+                <div class="aa-content">
+                    <div class="aa-place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="aa-text">Mitrovica</span>
+                    </div>
+                    <div class="aa-phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="aa-text">+383-45-882-673</span>
+                    </div>
+                    <div class="aa-email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="aa-text">arditavdiu637@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="aa-right aa-box">
+                <h2>Contact us</h2>
+                <div class="aa-content">
+                    <form action="#">
+                        <div class="aa-email">
+                            <p class="aa-text">Email *</p>
+                            <input type="email" required>
+                        </div>
+                        <div class="aa-msg">
+                            <p class="aa-text">Message *</p>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="aa-btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+   </footer>
 </body>
 </html>
