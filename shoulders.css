@@ -8,7 +8,7 @@ header .container {
     text-shadow: 0 5px 10px rgba(0,0,0,0.8);
     font-size: 35px;
 }
-.aa-chestvideos {
+.aa-shouldersvideos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) );
     gap: 20px;

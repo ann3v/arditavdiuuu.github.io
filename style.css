@@ -1,7 +1,7 @@
 img {
   width: 40%;
 }
-.container {
+header .container {
     margin-top: 150px;
 }
 .container .aa-heading {
@@ -22,9 +22,6 @@ img {
     background: #fff;
     text-align: center;
     padding: 30px 20px;
-}
-.container .aa-box-container .aa-box img {
-
 }
 .container .aa-box-container .aa-box h3 {
     color: #444;
@@ -55,7 +52,6 @@ img {
     box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
     transform: scale(1.03);
 }
-
   footer{
     margin-top: 100px;
     bottom: 0px;
@@ -72,9 +68,6 @@ img {
     font-size: 1.125rem;
     font-weight: 600;
     text-transform: uppercase;
-  }
-  footer .container {
-    margin-top: -2px;
   }
   .aa-box .aa-content{
     margin: 20px 0 0 0;
