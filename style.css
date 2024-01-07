@@ -1,3 +1,20 @@
+body {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 img {
   width: 40%;
 }
@@ -125,7 +142,7 @@ header .container {
   .aa-center .aa-content .fas:hover{
     background: white;
   }
-  .aa-center .aa-content .text{
+  .aa-center .aa-content .aa-text{
     font-size: 1.0625rem;
     font-weight: 500;
     padding-left: 10px;
