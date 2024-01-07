@@ -1,0 +1,263 @@
+body {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+#aa-backToTopBtn {
+  display: none;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 999999;
+}
+header {
+  margin-top: 100px;
+}
+header .container {
+  margin: 50px auto;
+}
+
+.aa-contact-box {
+  background:#fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aa-contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.aa-contact-right {
+  flex-basis: 40%;
+  padding: 40px 60px;
+  color: #333333;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 40px;
+}
+
+.aa-input-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.aa-input-row .aa-input-group {
+  flex-basis: 48%; 
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: #333333;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.aa-button {
+  background: #333333;
+  width: 100px;
+  border: none;
+  outline: none;
+  columns: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.aa-contact-left h2,
+.aa-contact-right h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+tr td {
+  padding-top: 20px;
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .aa-contact-left {
+    flex-basis: 100%;
+  }
+  .aa-contact-right {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  .aa-input-row .aa-input-group {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .aa-contact-left,
+  .aa-contact-right {
+    padding: 20px;
+  }
+}
+
+footer{
+    margin-top:100px;
+    bottom: 0px;
+    width: 100%;
+  }
+  .aa-main-content{
+    display: flex;
+    float: inline-end;
+  }
+  .aa-main-content .aa-box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .aa-box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .aa-box .aa-content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .aa-box .aa-content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .aa-box .aa-content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: black;
+    top: -10px;
+  }
+  .aa-left .aa-content p{
+    text-align: justify;
+  }
+  .aa-left .aa-content .aa-social{
+    margin: 20px 0 0 0;
+  }
+  .aa-left .aa-content .aa-social a{
+    padding: 0 2px;
+  }
+  .aa-left .aa-content .aa-social a span{
+    height: 40px;
+    width: 40px;
+    background: whitesmoke;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .aa-left .aa-content .aa-social a span:hover{
+    background: white;
+  }
+  .aa-center .aa-content .fas{
+    font-size: 1.4375rem;
+    background: whitesmoke;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .aa-center .aa-content .fas:hover{
+    background: white;
+  }
+  .aa-center .aa-content .aa-text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .aa-center .aa-content .aa-phone{
+    margin: 15px 0;
+  }
+  .aa-right form .aa-text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color:#656565 ;
+  }
+  .aa-right form .aa-msg{
+    margin-top: 10px;
+  }
+  .aa-right form input, .aa-right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: white;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .aa-right form input:focus,
+  .aa-right form textarea:focus{
+    outline-color: #3498db;
+  }
+  .aa-right form input{
+    height: 35px;
+  }
+  .aa-right form .aa-btn{
+    margin-top: 10px;
+  }
+  .aa-right form .aa-btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background:white;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .aa-right form .aa-btn button:hover{
+    background: whitesmoke;
+  }
+  
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .aa-main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .aa-main-content .aa-box{
+      margin: 5px 0;
+    }
+  }

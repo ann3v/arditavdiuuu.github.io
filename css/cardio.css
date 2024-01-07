@@ -1,0 +1,269 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+#aa-backToTopBtn {
+  display: none;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 999999;
+}
+header {
+  margin-top: 100px;
+}
+
+.aa-diti {
+  box-sizing: border-box;
+}
+
+.aa-heading h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 65px auto;
+}
+
+.aa-diti-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+  margin: 0px 25px;
+  text-align: center;
+}
+
+.aa-diti-button {
+  display: block;
+  margin-top: 20px;
+  background-color: #ff4500;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.aa-diti-button:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+
+.aa-diti-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.aa-diti-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+
+.aa-diti-image {
+  flex: 1;
+  max-width: 400px;
+  margin: 0px 25px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .aa-heading h1 {
+    font-size: 45px;
+    margin-top: 30px;
+  }
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px 40px;
+  }
+
+  .aa-diti-content {
+    width: 100%;
+    margin: 35px 0px;
+  }
+
+  .aa-diti-content h2 {
+    font-size: 30px;
+  }
+
+  .aa-diti-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .aa-diti-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .aa-diti-image {
+    width: 100%;
+  }
+}
+ footer{
+    margin-top: 100px;
+    bottom: 0px;
+    width: 100%;
+  }
+  .aa-main-content{
+    display: flex;
+  }
+  .aa-main-content .aa-box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .aa-box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .aa-box .aa-content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .aa-box .aa-content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .aa-box .aa-content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: black;
+    top: -10px;
+  }
+  .aa-left .aa-content p{
+    text-align: justify;
+  }
+  .aa-left .aa-content .aa-social{
+    margin: 20px 0 0 0;
+  }
+  .aa-left .aa-content .aa-social a{
+    padding: 0 2px;
+  }
+  .aa-left .aa-content .aa-social a span{
+    height: 40px;
+    width: 40px;
+    background: whitesmoke;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .aa-left .aa-content .aa-social a span:hover{
+    background: white;
+  }
+  .aa-center .aa-content .fas{
+    font-size: 1.4375rem;
+    background: whitesmoke;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .aa-center .aa-content .fas:hover{
+    background: white;
+  }
+  .aa-center .aa-content .aa-text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .aa-center .aa-content .aa-phone{
+    margin: 15px 0;
+  }
+  .aa-right form .aa-text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color:#656565 ;
+  }
+  .aa-right form .aa-msg{
+    margin-top: 10px;
+  }
+  .aa-right form input, .aa-right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: white;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .aa-right form input:focus,
+  .aa-right form textarea:focus{
+    outline-color: #3498db;
+  }
+  .aa-right form input{
+    height: 35px;
+  }
+  .aa-right form .aa-btn{
+    margin-top: 10px;
+  }
+  .aa-right form .aa-btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background:white;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .aa-right form .aa-btn button:hover{
+    background: whitesmoke;
+  }
+
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .aa-main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .aa-main-content .aa-box{
+      margin: 5px 0;
+    }
+  }

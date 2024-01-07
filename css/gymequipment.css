@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+#aa-backToTopBtn {
+  display: none;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 999999;
+}
+header {
+  margin-top: 100px;
+}
+header h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,0.8);
+  font-size: 37px;
+}
+.aa-firstp {
+  font-size: 16px;
+  line-height: 1.5; 
+  color: #333; 
+  margin-bottom: 15px;
+}
+.aa-table-box {
+  margin: 50px auto;
+}
+
+.aa-table-row{
+  display: table;
+  width: 80%;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background: transparent;
+  padding: 12px 0;
+  color: #555;
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.aa-table-head{
+  background: #222222;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+.aa-table-head .aa-table-cell{
+  border-right: none;
+}
+.aa-table-cell{
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  padding: 4px 0;
+  border-right: 1px solid #d6d4d4;
+  vertical-align: middle;
+}
+.aa-first-cell{
+  text-align: left;
+  padding-left: 10px;
+}
+.aa-last-cell{
+  border-right: none;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+.table-row {
+  font-size: 11px;
+}
+}
+footer{
+    margin-top: 100px;
+    bottom: 0px;
+    width: 100%;
+  }
+  .aa-main-content{
+    display: flex;
+  }
+  .aa-main-content .aa-box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .aa-box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .aa-box .aa-content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .aa-box .aa-content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .aa-box .aa-content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: black;
+    top: -10px;
+  }
+  .aa-left .aa-content p{
+    text-align: justify;
+  }
+  .aa-left .aa-content .aa-social{
+    margin: 20px 0 0 0;
+  }
+  .aa-left .aa-content .aa-social a{
+    padding: 0 2px;
+  }
+  .aa-left .aa-content .aa-social a span{
+    height: 40px;
+    width: 40px;
+    background: whitesmoke;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .aa-left .aa-content .aa-social a span:hover{
+    background: white;
+  }
+  .aa-center .aa-content .fas{
+    font-size: 1.4375rem;
+    background: whitesmoke;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .aa-center .aa-content .fas:hover{
+    background: white;
+  }
+  .aa-center .aa-content .aa-text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .aa-center .aa-content .aa-phone{
+    margin: 15px 0;
+  }
+  .aa-right form .aa-text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color:#656565 ;
+  }
+  .aa-right form .aa-msg{
+    margin-top: 10px;
+  }
+  .aa-right form input, .aa-right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: white;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .aa-right form input:focus,
+  .aa-right form textarea:focus{
+    outline-color: #3498db;
+  }
+  .aa-right form input{
+    height: 35px;
+  }
+  .aa-right form .aa-btn{
+    margin-top: 10px;
+  }
+  .aa-right form .aa-btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background:white;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .aa-right form .aa-btn button:hover{
+    background: whitesmoke;
+  }
+  
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .aa-main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .aa-main-content .aa-box{
+      margin: 5px 0;
+    }
+  }
