@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var backToTopBtn = document.getElementById('backToTopBtn');
+  var backToTopBtn = document.getElementById('aa-backToTopBtn');
 
   window.addEventListener('scroll', function () {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   backToTopBtn.addEventListener('click', function () {
-    scrollToTop(600); // Adjust the scrolling duration (in milliseconds) as needed
+    scrollToTop(600); 
   });
 
   function scrollToTop(duration) {

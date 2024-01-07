@@ -1,8 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
+  box-sizing: border-box;
   font-family: 'Roboto';
   font-size: 22px;
 }
-#backToTopBtn {
+#aa-backToTopBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -15,7 +20,119 @@ body {
   cursor: pointer;
   border-radius: 5px;
 }
-footer{
+header {
+  margin-top: 100px;
+}
+
+.aa-diti {
+  box-sizing: border-box;
+}
+
+.aa-heading h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 65px auto;
+}
+
+.aa-diti-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+  margin: 0px 25px;
+  text-align: center;
+}
+
+.aa-diti-button {
+  display: block;
+  margin-top: 20px;
+  background-color: #ff4500;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.aa-diti-button:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+
+.aa-diti-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.aa-diti-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+
+.aa-diti-image {
+  flex: 1;
+  max-width: 400px;
+  margin: 0px 25px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .aa-heading h1 {
+    font-size: 45px;
+    margin-top: 30px;
+  }
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px 40px;
+  }
+
+  .aa-diti-content {
+    width: 100%;
+    margin: 35px 0px;
+  }
+
+  .aa-diti-content h2 {
+    font-size: 30px;
+  }
+
+  .aa-diti-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .aa-diti-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .aa-diti-image {
+    width: 100%;
+  }
+}
+ footer{
     margin-top: 100px;
     bottom: 0px;
     width: 100%;

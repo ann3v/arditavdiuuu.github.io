@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto';
   font-size: 22px;
 }
-#backToTopBtn {
+#aa-backToTopBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -23,7 +23,7 @@ header .container {
 }
 
 .aa-contact-box {
-  background: #fff;
+  background:#fff;
   display: flex;
   flex-wrap: wrap;
 }
@@ -80,7 +80,7 @@ textarea {
   box-sizing: border-box;
 }
 
-button {
+.aa-button {
   background: #333333;
   width: 100px;
   border: none;
