@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+header {
+  margin-top: 100px;
+}
+#aa-backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 999999;
+}
+.aa-legs {
+  margin: 30px;
+  padding: 5px;
+}
+.aa-h3 {
+  text-align: center;
+}
+.aa-legs h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.aa-legs-2 p {
+  text-align: center;
+  padding: 3px;
+  color: black;
+}
+.aa-leg-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px 10px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .6);
+}
+.aa-leg-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.aa-leg-item hr {
+  width: 45px;
+  height: 3px;
+  background-color: black;
+  margin: 0 auto;
+  border: none;
+}
+.about-item p {
+  margin-top: 20px;
+}
+.aa-leg-item:hover {
+  background-color: black;
+}
+.aa-leg-item:hover h3,
+.aa-leg-item:hover p {
+  color: #fff;
+  transition: all 400ms ease-in-out;
+}
+.aa-leg-item:hover hr {
+  background-color: #fff;
+}
+.containeer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+video {
+  width: 500px;
+  max-width: 100%;
+  max-height: 100%;
+}
+footer {
+    margin-top: 100px;
+    bottom: 0px;
+    width: 100%;
+  }
+  .aa-main-content{
+    display: flex;
+  }
+  .aa-main-content .aa-box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .aa-box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .aa-box .aa-content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .aa-box .aa-content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .aa-box .aa-content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: black;
+    top: -10px;
+  }
+  .aa-left .aa-content p{
+    text-align: justify;
+  }
+  .aa-left .aa-content .aa-social{
+    margin: 20px 0 0 0;
+  }
+  .aa-left .aa-content .aa-social a{
+    padding: 0 2px;
+  }
+  .aa-left .aa-content .aa-social a span{
+    height: 40px;
+    width: 40px;
+    background: whitesmoke;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .aa-left .aa-content .aa-social a span:hover{
+    background: white;
+  }
+  .aa-center .aa-content .fas{
+    font-size: 1.4375rem;
+    background: whitesmoke;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .aa-center .aa-content .fas:hover{
+    background: white;
+  }
+  .aa-center .aa-content .aa-text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .aa-center .aa-content .aa-phone{
+    margin: 15px 0;
+  }
+  .aa-right form .aa-text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color:#656565 ;
+  }
+  .aa-right form .aa-msg{
+    margin-top: 10px;
+  }
+  .aa-right form input, .aa-right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: white;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .aa-right form input:focus,
+  .aa-right form textarea:focus{
+    outline-color: #3498db;
+  }
+  .aa-right form input{
+    height: 35px;
+  }
+  .aa-right form .aa-btn{
+    margin-top: 10px;
+  }
+  .aa-right form .aa-btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background:white;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .aa-right form .aa-btn button:hover{
+    background: whitesmoke;
+  }
+
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .aa-main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .aa-main-content .aa-box{
+      margin: 5px 0;
+    }
+  }
