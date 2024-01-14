@@ -1,13 +1,18 @@
-body {
+* {
+  margin: 0px;
+  padding: 0px;
   font-family: 'Roboto';
-  font-size: 22px;
+  font-size: 15px;
+}
+header {
+  margin-top: 100px;
 }
 #aa-backToTopBtn {
   display: none;
   position: fixed;
-  top: 60px;
-  right: 20px;
-  background-color: #3498db;
+  bottom: 30px;
+  left: 20px;
+  background-color: black;
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -16,25 +21,67 @@ body {
   border-radius: 5px;
   z-index: 999999;
 }
-header .container {
-    margin-top: 150px;
+.aa-legs {
+  margin: 30px;
+  padding: 5px;
 }
-.container .aa-heading {
-    text-align: center;
-    padding-bottom: 15px;
-    color: #fff;
-    text-shadow: 0 5px 10px rgba(0,0,0,0.8);
-    font-size: 35px;
+.aa-h3 {
+  text-align: center;
 }
-.aa-legsvideos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) );
-    gap: 20px;
+.aa-legs h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.aa-legs-2 p {
+  text-align: center;
+  padding: 3px;
+  color: black;
+}
+.aa-leg-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px 10px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, .6);
+}
+.aa-leg-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.aa-leg-item hr {
+  width: 45px;
+  height: 3px;
+  background-color: black;
+  margin: 0 auto;
+  border: none;
+}
+.about-item p {
+  margin-top: 20px;
+}
+.aa-leg-item:hover {
+  background-color: black;
+}
+.aa-leg-item:hover h3,
+.aa-leg-item:hover p {
+  color: #fff;
+  transition: all 400ms ease-in-out;
+}
+.aa-leg-item:hover hr {
+  background-color: #fff;
+}
+.containeer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 video {
   width: 500px;
+  max-width: 100%;
+  max-height: 100%;
 }
-footer{
+footer {
     margin-top: 100px;
     bottom: 0px;
     width: 100%;

@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="css/chest.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <script src="css/bootstrap.js"></script>
+   <script src="css/chest.js" defer></script>
+   <link rel="icon" href="/images/gym-icon.jpg">
     <title>DitiGym</title>
-    <link rel="stylesheet" href="css/chest.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="./css/bootstrap.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="icon" href="/images/gym-icon.jpg">
-    <script src="./css/button.js" defer></script>
 </head>
 <body id="DitiGym">
     <button id="aa-backToTopBtn">Back to Top</button>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">DitiGym</a>
+            <a class="navbar-brand" href="index.html">DitiGym</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,7 +26,7 @@
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="supplements.html">Supplements</a>
@@ -40,17 +41,125 @@
         </div>
     </nav>
     <header>
-        <div class="aa-main">
-            <div class="container">
-                <h1 class="aa-heading">Chest Exercises</h1>
-                <p>The chest muscles, commonly referred to as the pectoralis major and pectoralis minor, play a pivotal role in the upper body's strength and stability. The pectoralis major, the larger of the two muscles, is a broad, fan-shaped muscle that spans the chest and contributes significantly to movements involving the shoulder joint. It consists of two distinct portions—an upper clavicular head and a lower sternocostal head—that work synergistically during activities such as pushing, lifting, and arm flexion. Beneath the pectoralis major lies the pectoralis minor, a smaller triangular muscle that aids in stabilizing the shoulder blade. Together, these muscles contribute to the overall sculpting of the chest region and are essential for various daily activities, as well as targeted exercises like bench presses and push-ups in fitness routines. Regular strength training of the chest muscles not only enhances physical appearance but also promotes functional strength and balance in the upper body.</p>
-                <h2>Here you can find all the necessary info on how to grow your chest</h2>
-                <div class="aa-chestvideos">
-                    <video controls  src="/videos/chest1.mp4"></video>
-                    <video controls  src="/videos/chest2.mp4"></video>    
-                    <video controls  src="/videos/chest3.mp4"></video>    
-                    <video controls  src="/videos/chest4.mp4"></video>            
-                </div>       
+        <div class="container">
+            <h3 class="aa-title">Chest Day</h3>
+            <div class="aa-exercises-container">
+                <div class="aa-exercise" data-name="p-1">
+                    <img src="/images/benchpresss.jpg" alt="">
+                    <h3>Bench Press</h3>
+                </div>
+                <div class="aa-exercise" data-name="p-2">
+                    <img src="/images/inclinebenchpress.jpg" alt="">
+                    <h3>Incline Bench Press</h3>
+                </div>
+                <div class="aa-exercise" data-name="p-3">
+                    <img src="/images/cablefly.jpeg" alt="">
+                    <h3>Cable Fly</h3>
+                </div>
+                <div class="aa-exercise" data-name="p-4">
+                    <img src="/images/dumbbellpress.png" alt="">
+                    <h3>Dumbbell Press</h3>
+                </div>
+                <div class="aa-exercise" data-name="p-5">
+                    <img src="/images/dumbellinclinepress.png" alt="">
+                    <h3>Incline Dumbbell Press</h3>
+                </div>
+                <div class="aa-exercise" data-name="p-6">
+                    <img src="/images/inclinemachinepress.png" alt="">
+                    <h3>Incline Machine Press</h3>
+                </div>
+            </div>
+        </div>
+        <div class="aa-exercises-preview">
+            <div class="aa-preview" data-target="p-1">
+                <i class="fas fa-times"></i>
+                <h3>Bench Press</h3>
+                <div class="aa-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p> The bench press stands as a cornerstone compound exercise in strength training, primarily targeting the upper body muscle groups. Executed by lying on a flat bench and pressing a barbell upwards, the bench press engages the chest, shoulders, and triceps. Its fundamental nature makes it a key contributor to overall upper body strength and muscle development. Additionally, the exercise recruits stabilizing muscles throughout the body.</p>
+                <div class="aa-buttons">
+                    <a href="#" class="aa-buy">Watch now</a>
+                </div>
+            </div>
+            <div class="aa-preview" data-target="p-2">
+                <i class="fas fa-times"></i>
+                <h3>Incline Bench Press</h3>
+                <div class="aa-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>The incline bench press is a weight training exercise that targets the upper chest muscles, shoulders, and triceps. This variation of the traditional bench press is performed on an inclined bench, typically set at an angle of 15 to 30 degrees. The upward slope places a greater emphasis on the upper pectoral muscles, helping to develop a well-rounded and sculpted chest.</p>
+                <div class="aa-buttons">
+                    <a href="#" class="aa-buy">Watch Now</a>
+                </div>
+            </div>
+            <div class="aa-preview" data-target="p-3">
+                <i class="fas fa-times"></i>
+                <h3>Cable Fly</h3>
+                <div class="aa-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>The cable fly exercise is a dynamic chest workout that focuses on isolating and sculpting the pectoral muscles. This exercise involves using cable machines equipped with two adjustable pulleys at shoulder height. To perform cable flyes, stand in the center, grab a handle in each hand, and step forward. With a slight bend in the elbows, initiate the movement by bringing your hands together in front of you in a controlled, hugging motion. This action effectively targets the chest muscles through a full range of motion.</p>
+                <div class="aa-buttons">
+                    <a href="#" class="aa-buy">Watch Now</a>
+                </div>
+            </div>
+            <div class="aa-preview" data-target="p-4">
+                <i class="fas fa-times"></i>
+                <h3>Dumbbell Press</h3>
+                <div class="aa-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Dumbbell press, a fundamental strength training exercise, engages multiple muscle groups, emphasizing the chest, shoulders, and triceps. Executed by lifting dumbbells from shoulder height to full arm extension, this compound movement promotes muscle development, strength, and stability. The free weights offer a unique advantage by requiring each arm to work independently, addressing potential strength imbalances. This exercise also activates stabilizing muscles, contributing to improved overall upper body coordination.</p>
+                <div class="aa-buttons">
+                    <a href="#" class="aa-buy">Watch Now</a>
+                </div>
+            </div>
+            <div class="aa-preview" data-target="p-5">
+                <i class="fas fa-times"></i>
+                <h3>Incline Dumbbell Press</h3>
+                <div class="aa-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Incline dumbbell press is a targeted upper body exercise, emphasizing the development of the upper chest, shoulders, and triceps. Executed on an inclined bench, this variation of the dumbbell press adds an extra challenge by altering the angle of the movement. Lifting dumbbells from a lower position to a higher plane activates the upper chest muscles, contributing to a more sculpted and well-defined physique. The incline dumbbell press also engages the anterior deltoids and triceps, fostering overall upper body strength and stability.</p>
+                <div class="aa-buttons">
+                    <a href="#" class="aa-cart">Watch Now</a>
+                </div>
+            </div>
+            <div class="aa-preview" data-target="p-6">
+                <i class="fas fa-times"></i>
+                <h3>Incline Machine Press</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>The incline machine press is a versatile chest exercise that targets the upper pectoral muscles. Executed on a specialized incline press machine, this movement involves pushing weights upward at an inclined angle. By focusing on the upper chest, the exercise contributes to a well-proportioned and sculpted chest appearance. The incline position places greater stress on the clavicular head of the pectoralis major, promoting muscle development in the upper chest region. </p>
+                <div class="aa-buttons">
+                    <a href="#" class="aa-cart">Watch Now</a>
+                </div>
             </div>
         </div>
     </header>
@@ -58,7 +167,7 @@
         <div class="aa-main-content">
             <div class="aa-left box">
                 <div class="container">
-                    <h2>About us</h2>
+                    <h2>About Us</h2>
                     <div class="aa-content">
                         <p>"Welcome to our dynamic gym page! Explore cutting-edge workouts, personalized training, and a vibrant fitness community. Join us in sculpting a healthier, stronger you. Let's embark on this fitness journey together</p>
                         <div class="aa-social">

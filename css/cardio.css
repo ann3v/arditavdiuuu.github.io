@@ -1,18 +1,18 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Roboto';
+  font-size: 15px;
 }
 body {
   box-sizing: border-box;
-  font-family: 'Roboto';
-  font-size: 22px;
 }
 #aa-backToTopBtn {
   display: none;
   position: fixed;
-  top: 60px;
-  right: 20px;
-  background-color: #3498db;
+  bottom: 30px;
+  left: 20px;
+  background-color: black;
   color: #fff;
   border: none;
   padding: 10px 15px;
